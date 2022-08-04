@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+.container{
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    background-color: rgba(38, 38, 33, 0.164);
+    margin:auto;
+    padding-top: 20px;
+    border-radius: 25px;
+    color: red;
+}
+
+span{
+    color: red;
+}
+h1{
+    text-align: center;
+}
+.grid{
+    display:flex;
+    flex-flow: row wrap;
+    width: 620px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 100px auto;
+
+}
+.grid div{
+    width: 60px;
+    height: inherit;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: x-large;
+}
+.exchange{
+    background-color: red;
+}
+/* another */
+#array {
+    background-color: white;
+    height: 413px;
+    width: 598px;
+    margin: auto;
+    position: relative;
+    margin-top: 64px;
+}
+  
+.block {
+    width: 28px;
+    background-color: #6b5b95;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
+  
+.block_id {
+    position: absolute;
+    color: black;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+}
